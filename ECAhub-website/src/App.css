@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+    @apply text-orange-500 underline underline-offset-4;
+}
+
+
+
+.pagination{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.pagination{
+    margin: 0 5px;
+
+}
+
+.pagination a{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.pagination a:hover{
+    background-color: #f1f1f1;
+}
+
+.pagination li.activerPagination{
+    background: rgb(255, 106, 0);
+    border-radius: 4px;
+    color: #fff;
+}
+
+.active-button{
+    color: #fc3c1a
+}
